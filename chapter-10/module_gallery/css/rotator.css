@@ -1,0 +1,19 @@
+/**
+ * Custom CSS to style the intro images.
+ */
+
+#rotator ul li {
+	float: left;
+	position: absolute;
+	list-style: none;
+}
+#rotator ul li img {
+	padding: 10px;
+}
+#rotator ul li.show {
+	z-index: 500;
+}
+#rotator a {
+	text-decoration: none;
+	border: 0;
+}

@@ -1,0 +1,149 @@
+/**
+ * Layout for the various forms.
+ */
+
+fieldset {
+	border: 0;
+	margin: 15px 0 0 15px;
+}
+.required,
+.validation,
+.error {
+	font-weight: bold;
+	color: #ea5200;
+}
+input,
+textarea {
+	border: 3px solid #cbb79f;
+	margin: 0 0 10px 10px;
+	padding: 2px 4px;
+	background: transparent;
+}
+input {
+	width: 250px;
+}
+input[type=checkbox] {
+	float: left;
+	width: 20px;
+	margin: 5px 5px 0 0;
+	border: 0;
+}
+input[type=radio] {
+	width: 15px;
+	border: 0;
+}
+input.action {
+	width: auto;
+	padding: 6px 17px;
+	background: #fff;
+	margin: 0 0 15px 35px;
+	font-weight: bold;
+	border: 0;
+	cursor: pointer;
+}
+textarea {
+	width: 700px;
+	height: 180px;
+	overflow: auto;
+}
+input:hover,
+input:active,
+textarea:hover,
+textarea:active {
+	background: #fff;
+}
+input.action:hover,
+input.action:active {
+	background: #cbb79f;
+}
+label.error {
+	margin: 0 0 0 15px;
+	padding: 0 0 0 20px;
+	background: transparent url('/themes/bar/images/bad.png') no-repeat;
+}
+div.optionset ul {
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+div.optionset li {
+	list-style: none;
+	float: left;
+}
+div.field {
+	clear: both;
+}
+#Form_Form_Datetime,
+#Form_Form_Birth {
+	background: transparent url('/themes/bar/images/calendar.png') 235px 2px no-repeat
+}
+
+
+
+/* DATETIME PICKER */
+#AnyTime--Form_Form_Datetime,
+#AnyTime--Form_Form_Birth {
+	z-index: 20;
+}
+div.AnyTime-win {
+	background: #fff !important;
+	border: 3px solid #cbb79f !important;
+	-moz-border-radius: 8px !important;
+	-webkit-border-radius: 8px !important;
+	border-radius: 8px !important;
+}
+.AnyTime-pkr .AnyTime-hdr {
+	background: #cbb79f !important;
+	color: #333 !important;
+}
+.AnyTime-pkr .AnyTime-x-btn {
+	border: 1px solid #cbb79f !important;
+	color: #cbb79f !important;
+}
+.AnyTime-pkr .AnyTime-cur-btn {
+	border: 1px solid #333 !important;
+	background: #f7d400 !important;
+	color: #333 !important;
+}
+.AnyTime-pkr .AnyTime-cloak {
+	z-index: 40;
+}
+.AnyTime-pkr .AnyTime-yr-selector {
+	z-index: 60;
+}
+
+
+/* SEARCH */
+.searchform {
+	position: absolute;
+	top: 75px;
+	right: 10px;
+}
+input.searchfield {
+	width: 180px;
+}
+input.searchbutton {
+	width: 26px;
+	height: 26px;
+	border: 0;
+	margin: 0 0 0 1px;
+	background: transparent url('/themes/bar/images/search.png') 4px 4px no-repeat;
+	cursor: pointer;
+	float: right;
+}
+input.searchbutton:hover,
+input.searchbutton:active {
+	background: #cbb79f url('/themes/bar/images/search.png') 4px 4px no-repeat;
+}
+.highlight {
+	background: #f7d400;
+}
+#PageNumbers {
+	margin: 0 auto;
+	text-align: center;
+}
+.next {
+	margin: 0 0 0 25px;
+}
+.prev {
+	margin: 0 25px 0 0;
+}

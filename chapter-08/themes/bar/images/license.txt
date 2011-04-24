@@ -1,0 +1,16 @@
+background.jpg
+logo.png
+	Creative Commons Attribution-NonCommercial-NoDerivs 3.0: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en
+	http://www.b1-bar.at
+
+
+bad.gif
+calendar.png
+warn.png
+	Creative Commons Attribution-ShareAlike 3.0: http://creativecommons.org/licenses/by-sa/3.0/deed.en
+	http://somerandomdude.com/
+
+
+facebook.png
+	Creative Commons Attribution-NoDerivs 3.0: http://creativecommons.org/licenses/by-nd/3.0/deed.en
+	http://www.quake9.com/

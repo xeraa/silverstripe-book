@@ -1,0 +1,10 @@
+borderBottomCenter.png
+borderBottomLeft.png
+borderBottomRight.png
+borderMiddleLeft.png
+borderMiddleRight.png
+borderTopCenter.png
+borderTopLeft.png
+borderTopRight.png
+	MIT License: http://www.opensource.org/licenses/mit-license.php
+	http://colorpowered.com/colorbox/

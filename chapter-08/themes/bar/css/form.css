@@ -1,0 +1,88 @@
+/**
+ * Layout for the various forms.
+ */
+
+fieldset {
+	border: 0;
+	margin: 15px 0 0 15px;
+}
+.required,
+.validation,
+.error {
+	font-weight: bold;
+	color: #ea5200;
+}
+input,
+textarea {
+	border: 3px solid #cbb79f;
+	margin: 0 0 10px 10px;
+	padding: 2px 4px;
+	background: transparent;
+}
+input {
+	width: 250px;
+}
+input[type=checkbox] {
+	float: left;
+	width: 20px;
+	margin: 5px 5px 0 0;
+}
+input.action {
+	width: auto;
+	padding: 6px 17px;
+	background: #fff;
+	margin: 0 0 15px 35px;
+	font-weight: bold;
+	border: 0;
+	cursor: pointer;
+}
+textarea {
+	width: 700px;
+	height: 180px;
+	overflow: auto;
+}
+input:hover,
+input:active,
+textarea:hover,
+textarea:active {
+	background: #fff;
+}
+input.action:hover,
+input.action:active {
+	background: #cbb79f;
+}
+label.error {
+	margin: 0 0 0 15px;
+	padding: 0 0 0 20px;
+	background: transparent url('/themes/bar/images/bad.png') no-repeat;
+}
+#Form_Form_Datetime {
+	background: transparent url('/themes/bar/images/calendar.png') 235px 2px no-repeat
+}
+
+
+/* DATETIME PICKER */
+#AnyTime--Form_Form_Datetime,
+#AnyTime--Form_Form_Birth {
+	z-index: 20;
+}
+div.AnyTime-win {
+	background: #fff !important;
+	border: 3px solid #cbb79f !important;
+	-moz-border-radius: 8px !important;
+	-webkit-border-radius: 8px !important;
+	border-radius: 8px !important;
+}
+.AnyTime-pkr .AnyTime-hdr {
+	background: #cbb79f !important;
+	color: #333 !important;
+}
+.AnyTime-pkr .AnyTime-x-btn {
+	border: 1px solid #cbb79f !important;
+	color: #cbb79f !important;
+}
+.AnyTime-pkr .AnyTime-cur-btn {
+	border: 1px solid #333 !important;
+	background: #f7d400 !important;
+	color: #333 !important;
+}

@@ -1,0 +1,7 @@
+border.png
+controls.png
+loading.gif
+loading_background.png
+overlay.png
+	MIT License: http://www.opensource.org/licenses/mit-license.php
+	http://colorpowered.com/colorbox/

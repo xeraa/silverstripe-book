@@ -1,0 +1,215 @@
+/**
+ * Base layout of the page.
+ */
+
+
+/* BASE PAGE */
+html,
+body {
+	padding: 0;
+	margin: 0;
+	color: #333;
+	font: 10pt Verdana, sans-serif;
+}
+noscript div {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #ffe0e0 url('/themes/bar/images/warn.png') 10px 12px no-repeat;
+	margin: 0;
+	padding: 10px 0;
+	z-index: 999;
+	border-top: 1px dotted #da3438;
+}
+noscript p {
+	padding: 0 0 0 45px;
+	margin: 0;
+	background: transparent;
+}
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+
+
+/* BASE LAYOUT */
+.transparent {
+	background: rgb(255,255,255);
+	background: rgba(255,255,255,0.8);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.8), rgba(204,204,204,0.8));
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,0.8)), to(rgba(204,204,204,0.8)));
+}
+.rounded {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+.shadow {
+	-moz-box-shadow: 3px 3px 5px #000;
+	-webkit-box-shadow: 3px 3px 5px #000;
+	box-shadow: 3px 3px 5px #000;
+}
+
+
+/* BACKGROUND */
+#background {
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+@media screen and (max-width: 1024px){
+	#background {
+		left: 50%;
+		margin-left: -512px;
+	}
+}
+
+
+/* BASIC INFO */
+#top p,
+#top ul {
+	margin: 0;
+	padding: 0 !important;
+	background: transparent;
+	list-style-type: none;
+	line-height: 18pt;
+}
+#top .left {
+	float: left;
+	margin: 10px 0 0 0;
+}
+#top .right {
+	float: left;
+	margin: 0 0 0 5px;
+}
+#top {
+	margin: 0 10px 0 25px;
+	height: 95px;
+}
+#top #details-first {
+	float: left;
+	margin: 0;
+}
+#top #details-second {
+	float: right;
+	margin: 0 110px 0 0;
+	width: 300px;
+}
+#logo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
+}
+#facebook {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+
+/* CONTENT AND FOOTER AREA */
+#content {
+	position: relative;
+	top: 20px;
+	left: 50%;
+	width: 750px;
+	line-height: 16pt;
+	margin: 0 0 0 -480px;
+	padding: 10px 10px 10px 190px;
+	z-index: 1;
+	min-height: 600px;
+}
+footer {
+	position: relative;
+	top: 40px;
+	left: 50%;
+	width: 960px;
+	line-height: 16pt;
+	margin: -10px 0 0 -490px;
+	z-index: 1;
+	text-align: right;
+}
+footer span {
+	padding: 0 0 5px 15px;
+}
+
+
+/* MENU */
+#menu {
+	position: absolute;
+	top: 175px;
+	left: 10px;
+	width: 150px;
+	margin: 0;
+	padding: 0;
+	font-size: 105%;
+}
+#menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	text-align: right;
+}
+#menu li {
+	height: 37px;
+}
+#menu a {
+	background: #fff;
+	padding: 6px 12px;
+	margin: 7px 0 0 0;
+	border: 0;
+	font-weight: bold;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+#menu a:hover {
+	background: #cbb79f;
+}
+#menu .current a {
+	background: #f7d400;
+}
+
+
+/* SHARE */
+#share {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background: #fff;
+	padding: 10px 10px 5px 10px;
+	width: 128px;
+}
+#share .facebook,
+#share .twitter {
+	display: block;
+	height: 90px;
+	width: 60px;
+	border: 0;
+	float: left;
+}
+#share .facebook {
+	background: transparent url('/themes/bar/images/share/facebook_grey.jpg') 0 0 no-repeat;
+}
+#share .facebook:hover {
+	background: transparent url('/themes/bar/images/share/facebook.jpg') 0 0 no-repeat;
+}
+#share .twitter {
+	background: transparent url('/themes/bar/images/share/twitter_grey.jpg') 0 0 no-repeat;
+}
+#share .twitter:hover {
+	background: transparent url('/themes/bar/images/share/twitter.jpg') 0 0 no-repeat;
+}

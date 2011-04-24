@@ -1,0 +1,86 @@
+/**
+ * Layout for CMS areas and some parts inside and outside of it.
+ */
+
+/* INCLUDE FONTS */
+@font-face {
+	font-family: 'OrbitronMedium';
+	src: url('../fonts/orbitron-medium-webfont.eot');
+	src: local('?'), url('../fonts/orbitron-medium-webfont.woff') format('woff'), url('../fonts/orbitron-medium-webfont.ttf') format('truetype'), url('../fonts/orbitron-medium-webfont.svg#webfontLjCklwo6') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* STYLE FOR BOTH THE CMS AND GLOBAL */
+a {
+	text-decoration: none;
+	color: inherit;
+	border-bottom: 2px solid #cbb79f;
+	font-weight: bold;
+}
+a img {
+	text-decoration: none;
+	border: 0;
+}
+a:hover {
+	border-bottom: 2px solid #f7d400;
+}
+table {
+	border: 0;
+	margin: 0 0 10px 13px;
+}
+tr {
+	margin: 2px 0;
+}
+
+
+/* CONTENT AREA */
+.typography h1 {
+	margin: 0 0 10px 0;
+	padding: 10px 25px;
+	color: #333;
+	background: #f7d400;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	font: 26px/32px 'OrbitronMedium', Arial, sans-serif;
+}
+.typography h2 {
+	margin: 10px 0 10px 0;
+	padding: 6px 25px;
+	color: #333;
+	background: #d8cec5;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	font: 21px/27px 'OrbitronMedium', Arial, sans-serif;
+}
+.typography h3 {
+	margin: 20px 0 10px 0;
+	padding: 3px 25px;
+	color: #333;
+	background: #fff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	font: 16px/22px 'OrbitronMedium', Arial, sans-serif;
+}
+.typography p {
+	margin: 10px 0;
+	padding: 0 25px;
+	background: transparent;
+}
+.typography ul {
+	background: transparent;
+}
+.typography iframe {
+	border: 0;
+	overflow:hidden;
+	margin: 0;
+}
+
+
+/* SPAM PROTECTION */
+span.mail {
+}

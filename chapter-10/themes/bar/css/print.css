@@ -1,0 +1,66 @@
+/**
+ * Reduced layout for easier printing.
+ */
+
+/* BASE PAGE */
+#background,
+nav,
+footer {
+	display: none !important;
+}
+a img {
+	border: 0;
+}
+a:link:after,
+a:visited:after {
+	color: #000; 
+	background: transparent;
+	content: " (Link: " attr(href) ") ";
+}
+
+
+/* BASIC INFO */
+#top #details-first,
+#top #details-second,
+#bottom #details-first,
+#bottom #details-second {
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	float: none !important;
+}
+#top a, /* Get rid of the logo and facebook links */
+#bottom a {
+	display: none;
+}
+#top table a, /* Show other links */
+#bottom table a {
+	display: inline;
+}
+
+
+/* CONTENT */
+#content {
+	background: transparent;
+	-moz-box-shadow: 0 0 0 #000;
+	-webkit-box-shadow: 0 0 0 #000;
+	box-shadow: 0 0 0 #000;
+	width: 590px !important;
+}
+.typography {
+	clear: both;
+	margin: 40px 0 0 0;
+}
+#content h1,
+#content h2,
+#content h3 {
+	background: transparent;
+	margin: 10px 0;
+	font-size: 20px;
+}
+#content p {
+	background: transparent;
+	margin: 5px 0;
+	font-size: 50%;
+	font-size: 9px;
+}
