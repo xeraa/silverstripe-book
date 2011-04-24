@@ -7,7 +7,7 @@ Create smashing SilverStripe applications by extending modules, creating themes,
 * Reviewed by Sigurd Magnusson, co-founder of SilverStripe, and Ingo Schommer, development manager at SilverStripe
 
 #### Errata
-Although we have taken every care to ensure the accuracy of our content, mistakes do happen. If you find a mistake in one of our books—maybe a mistake in the text or the code—we would be grateful if you would report this to us. By doing so, you can save other readers from frustration and help us improve subsequent versions of this book. If you find any errata, please report them by creating a ticket at https://github.com/xeraa/silverstripe-book/issues.
+Although we have taken every care to ensure the accuracy of our content, mistakes do happen. If you find a mistake in the book (maybe a mistake in the text or the code) we would be grateful if you would report this to us. By doing so, you can save other readers from frustration and help us improve subsequent versions of this book. If you find any errata, please report them by creating a ticket at https://github.com/xeraa/silverstripe-book/issues.
 Any existing errata can be viewed at https://github.com/xeraa/silverstripe-book/wiki.
 
 #### Author: Philipp Krenn
