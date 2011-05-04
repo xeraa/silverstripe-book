@@ -10,6 +10,13 @@ Create smashing SilverStripe applications by extending modules, creating themes,
 Although we have taken every care to ensure the accuracy of our content, mistakes do happen. If you find a mistake in the book (maybe a mistake in the text or the code) we would be grateful if you would report this to us. By doing so, you can save other readers from frustration and help us improve subsequent versions of this book. If you find any errata, please report them by creating a ticket at https://github.com/xeraa/silverstripe-book/issues.
 Any existing errata can be viewed at https://github.com/xeraa/silverstripe-book/wiki.
 
+#### Addon Chapters
+To keep the book mean and lean (while also sticking to the original price tag), two chapters are only available as downloads. These are:
+
+* Chapter 10 "Creating an Application" - please note that this has been changed to chapter 11 to avoid any holes in the printed book, but it's actually intended to be the last but one; the downloadable code follows the original order so ``chapter-11`` is for the printed chapter 10
+* Appendix A "Installing SilverStripe"
+
+
 #### Author: Philipp Krenn
 Additional information about the author can be found at http://xeraa.net.
 
