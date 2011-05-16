@@ -13,7 +13,7 @@ Any existing errata can be viewed at https://github.com/xeraa/silverstripe-book/
 #### Addon Chapters
 To keep the book mean and lean (while also sticking to the original price tag), two chapters are only available as downloads. These are:
 
-* Chapter 10 "Creating an Application" - please note that this has been changed to chapter 11 to avoid any holes in the printed book, but it's actually intended to be the last but one; the downloadable code follows the original order so ``chapter-11`` is for the printed chapter 10
+* Chapter 10 "Creating an Application" - please note that this has been changed to chapter 11 to avoid any holes in the printed book, but it's actually intended to be the last but one; the downloadable code follows the original order so ``chapter-11/`` is for the printed chapter 10
 * Appendix A "Installing SilverStripe"
 
 
@@ -77,8 +77,8 @@ Add the required core files and modules (detailed description in the book), run 
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS "AS IS" AND ANY
     EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
     WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-    DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
-    DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+    DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY DIRECT,
+    INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
     (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
     LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
     ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
