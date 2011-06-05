@@ -16,6 +16,10 @@ To keep the book mean and lean (while also sticking to the original price tag), 
 * Chapter 10 "Creating an Application" - please note that this has been changed to chapter 11 to avoid any holes in the printed book, but it's actually intended to be the last but one; the downloadable code follows the original order so ``chapter-11/`` is for the printed chapter 10
 * Appendix A "Installing SilverStripe"
 
+#### Modules
+The following modules based on the ones created in the book are available:
+* Facebook feed widget: https://github.com/xeraa/silverstripe-widget_facebookfeed
+* Gallery and intro page: https://github.com/xeraa/silverstripe-module_gallery
 
 #### Author: Philipp Krenn
 Additional information about the author can be found at http://xeraa.net.
