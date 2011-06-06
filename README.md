@@ -18,6 +18,7 @@ To keep the book mean and lean (while also sticking to the original price tag), 
 
 #### Modules
 The following modules based on the ones created in the book are available:
+
 * Facebook feed widget: https://github.com/xeraa/silverstripe-widget_facebookfeed
 * Gallery and intro page: https://github.com/xeraa/silverstripe-module_gallery
 
