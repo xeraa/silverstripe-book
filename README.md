@@ -6,6 +6,8 @@ Create smashing SilverStripe applications by extending modules, creating themes,
 * Build a fun, real-world example application without breaking a sweat
 * Reviewed by Sigurd Magnusson, co-founder of SilverStripe, and Ingo Schommer, development manager at SilverStripe
 
+High level overview: http://prezi.com/i9olt1s7muif/silverstripe-24-module-extension-themes-and-widgets-beginners-guide/
+
 #### Errata
 Although we have taken every care to ensure the accuracy of our content, mistakes do happen. If you find a mistake in the book (maybe a mistake in the text or the code) we would be grateful if you would report this to us. By doing so, you can save other readers from frustration and help us improve subsequent versions of this book. If you find any errata, please report them by creating a ticket at https://github.com/xeraa/silverstripe-book/issues.
 Any existing errata can be viewed at https://github.com/xeraa/silverstripe-book/wiki.
@@ -41,7 +43,7 @@ All of this and quite a bit more is covered by *Silverstripe 2.4 Module Extensio
 
 A practical guide for extending SilverStripe applications with ease, describing real-life examples right from the start
 
-### What you will learn from this book :
+### What You Will Learn From This Book :
 * Convert general HTML and CSS files into SilverStripe templates to create magnificent themes
 * Create and extend different page types, both in terms of look and functionality
 * Enable your content editor to efficiently interact with your system, for instance, adding new images to the image gallery
@@ -55,7 +57,7 @@ A practical guide for extending SilverStripe applications with ease, describing 
 ### Approach
 Designed as a Beginner's Guide, this book takes basic ideas step-by-step to a higher level, and builds fully featured applications. Besides the raw programming, you will also be confronted with different approaches, showing you which solution is "right". The example project built throughout this book is also used for a live project, based on the needs of a real business. You will start with an idea for a project. From the initial design, via the basic implementation, to the final polishing - every single step is highlighted.
 
-### Who this book is written for
+### Who This Book Is Written For
 If you are a SilverStripe developer and want to learn the nooks and crannies of developing fully-featured SilverStripe web applications with module extensions, themes, and widgets, then this book is for you. Building upon your knowledge of PHP, HTML, and CSS, this book will take you to the next level of SilverStripe development. The book assumes you have basic experience with SilverStripe.
 
 
