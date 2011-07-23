@@ -5,8 +5,7 @@ Create smashing SilverStripe applications by extending modules, creating themes,
 * Step-by-step instructions covering everything you need to know for getting started with making the most of the core functionality, developing modules, creating themes, and adding widgets
 * Build a fun, real-world example application without breaking a sweat
 * Reviewed by Sigurd Magnusson, co-founder of SilverStripe, and Ingo Schommer, development manager at SilverStripe
-
-High level overview: http://prezi.com/i9olt1s7muif/silverstripe-24-module-extension-themes-and-widgets-beginners-guide/
+* High level overview: http://prezi.com/i9olt1s7muif/silverstripe-24-module-extension-themes-and-widgets-beginners-guide/
 
 #### Errata
 Although we have taken every care to ensure the accuracy of our content, mistakes do happen. If you find a mistake in the book (maybe a mistake in the text or the code) we would be grateful if you would report this to us. By doing so, you can save other readers from frustration and help us improve subsequent versions of this book. If you find any errata, please report them by creating a ticket at https://github.com/xeraa/silverstripe-book/issues.
