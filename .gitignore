@@ -1,0 +1,36 @@
+!.gitignore
+!.htaccess
+
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+
+# IDE generated files #
+#######################
+.project
+.settings/
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+
+# SilverStripe folders #
+########################
+assets/
+cms/
+dataobject_manager/
+dbplumber/
+googlesitemaps/
+logs/
+sapphire/
+silverstripe-cache/
+uploadify/
