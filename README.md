@@ -12,10 +12,10 @@ Although we have taken every care to ensure the accuracy of our content, mistake
 Any existing errata can be viewed at https://github.com/xeraa/silverstripe-book/wiki.
 
 #### Addon Chapters
-To keep the book mean and lean (while also sticking to the original price tag), two chapters are only available as downloads. These are:
+To keep the book mean and lean (while also sticking to the original price tag), two chapters are only available as downloads:
 
-* Chapter 10 "Creating an Application" - please note that this has been changed to chapter 11 to avoid any holes in the printed book, but it's actually intended to be the last but one; the downloadable code follows the original order so ``chapter-11/`` is for the printed chapter 10
-* Appendix A "Installing SilverStripe"
+* *Chapter 10 "Creating an Application"*: Please note that this has been changed to chapter 11 by the publisher to avoid any holes in the printed book. However, it's intended to be chapter 10. The downloadable code follows the original order, so the code in the folder ``chapter-11/`` is for the printed chapter 10. ``chapter-10/`` is the code for the download chapter.
+* *Appendix A "Installing SilverStripe"*
 
 #### Modules
 The following modules based on the ones created in the book are available:
