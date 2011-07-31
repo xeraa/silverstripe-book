@@ -11,6 +11,8 @@ Create smashing SilverStripe applications by extending modules, creating themes,
 Although we have taken every care to ensure the accuracy of our content, mistakes do happen. If you find a mistake in the book (maybe a mistake in the text or the code) we would be grateful if you would report this to us. By doing so, you can save other readers from frustration and help us improve subsequent versions of this book. If you find any errata, please report them by creating a ticket at https://github.com/xeraa/silverstripe-book/issues.
 Any existing errata can be viewed at https://github.com/xeraa/silverstripe-book/wiki.
 
+*Important change in chapter 6*: The Facebook feed widget code in ``chapter-6/`` now requires an ``access_token`` due to an API change on Facebook's side. Please use the code on Github, the one in the book won't work!
+
 #### Addon Chapters
 To keep the book mean and lean (while also sticking to the original price tag), two chapters are only available as downloads:
 
