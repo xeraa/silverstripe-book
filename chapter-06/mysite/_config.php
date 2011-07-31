@@ -133,3 +133,10 @@ if(Director::isDev()){
 } else {
 	SS_Cache::set_cache_lifetime('any', 3600, 100);
 }
+
+
+/**
+ * Facebook access token, required for the Facebook feed widget.
+ * This is just a token for testing, you should generate your own: https://developers.facebook.com/apps
+ */
+define("FACEBOOK_ACCESS_TOKEN", "228790980497081|uJaK5Y6HsuJR09mXI9DOWpEQVOM");

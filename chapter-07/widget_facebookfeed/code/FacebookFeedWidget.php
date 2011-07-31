@@ -57,8 +57,13 @@ class FacebookFeedWidget extends Widget {
 
 		/**
 		 * URL for fetchning the information, convert the returned JSON into an array.
+		 * It is required to use an access_token which in turn mandates https.
 		 */
-		$url = 'http://graph.facebook.com/' . $this->Identifier . '/feed?limit=' . ($this->Limit + 5);
+		if(!defined('FACEBOOK_ACCESS_TOKEN')){
+			user_error('Missing Facebook access token - please get one and add it to your mysite/_config.php: define("FACEBOOK_ACCESS_TOKEN", "&lt;your token&gt;");', E_USER_WARNING);
+			return;
+		}
+		$url = 'https://graph.facebook.com/' . $this->Identifier . '/feed?limit=' . ($this->Limit + 5) . '&access_token=' . FACEBOOK_ACCESS_TOKEN;
 		$facebook = json_decode(file_get_contents($url), true);
 
 		/**
@@ -80,17 +85,16 @@ class FacebookFeedWidget extends Widget {
 			}
 
 			/**
-			 * If no such messages exist, log a warning and exit.
+			 * If it isn't a post, but an event for example: continue with the next entry.
 			 */
-			if(!isset($post['from']['id']) || !isset($post['id']) || !isset($post['message'])){
-				user_error('Facebook detail error or API changed', E_USER_WARNING);
-				return;
+			if(!isset($post['from']['id']) || !isset($post['message'])){
+				continue;
 			}
 
 			/**
 			 * If the post is from the user itself and not someone else, add the message and date to our feeds array.
 			 */
-			if(strpos($post['id'], $post['from']['id']) === 0){
+			if(strpos($this->Identifier, $post['from']['id']) === 0){
 				$posted = date_parse($post['created_time']);
 				$feeds->push(new ArrayData(array(
 					'Message' => DBField::create('Text', $post['message']),

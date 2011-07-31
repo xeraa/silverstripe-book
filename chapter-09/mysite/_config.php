@@ -136,6 +136,13 @@ if(Director::isDev()){
 
 
 /**
+ * Facebook access token, required for the Facebook feed widget.
+ * This is just a token for testing, you should generate your own: https://developers.facebook.com/apps
+ */
+define("FACEBOOK_ACCESS_TOKEN", "228790980497081|uJaK5Y6HsuJR09mXI9DOWpEQVOM");
+
+
+/**
  * Do not override the SilverStripe asset manager - the DOM version does not support moving files.
  */
 DataObjectManager::allow_assets_override(false);
